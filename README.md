@@ -1,3 +1,13 @@
+This is a simple project for exploring [React Hooks](https://reactjs.org/docs/hooks-intro.html) and working with state when building pure functional components in React. The application simply renders a "Posts" button and a "Todos" button. When clicked, each button makes a separate GET request to retrieve a list from the public [JSONPlaceholder API](http://jsonplaceholder.typicode.com) and displays the results.
+
+The application demonstrates the following key areas of technical interest:
+* How to access state and lifecycle methods in a functional component
+* The `useState` hook for setting and retrieving state
+* The `useEffect` hook for replacing `componentDidMount` and `componentDidUpdate` lifecycle methods 
+* Reuse of hook-related logic across multiple components (Note how `useResources.js` is shared across `ResourceList` and `UserList` components)
+
+All content and instructions came from the excellent [Udemy Modern React with Redux course](https://www.udemy.com/react-redux/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
