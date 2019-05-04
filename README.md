@@ -1,4 +1,4 @@
-This is a simple project for exploring [React Hooks](https://reactjs.org/docs/hooks-intro.html) and working with state when building pure functional components in React. The application simply renders a "Posts" button and a "Todos" button. When clicked, each button makes a separate GET request to retrieve a list from the public [JSONPlaceholder API](http://jsonplaceholder.typicode.com) and displays the results.
+This is a simple project for exploring [React Hooks](https://reactjs.org/docs/hooks-intro.html) and working with state when building pure functional components in React. The application renders a "Posts" button and a "Todos" button. When clicked, each button makes a GET request to retrieve a list from the public [JSONPlaceholder API](http://jsonplaceholder.typicode.com) and display the results.
 
 The application demonstrates the following key areas of technical interest:
 * How to access state and lifecycle methods in a functional component
